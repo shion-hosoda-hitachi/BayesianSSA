@@ -1,0 +1,74 @@
+Reaction,Equation,Gene
+PGI,G6P[c] <=> F6P[c],pgi
+PFK,F6P[c] + ATP[c] --> FBP[c] + ADP[c],"pfkA, pfkB"
+FBP,FBP[c] --> F6P[c],fbp
+ALD,FBP[c] <=> DHAP[c] + G3P[c],"fbaB, fbaA"
+TPI,G3P[c] <=> DHAP[c],tpiA
+GAPDH,G3P[c] + NAD[c] <=> _13DPG[c] + NADH[c],gapA
+PGK,ADP[c] + _13DPG[c] <=> ATP[c] + _3PG[c],pgk
+PGM,_3PG[c] <=> _2PG[c],"pgml, pgmA"
+ENO,_2PG[c] <=> PEP[c],eno
+PYK,ADP[c] + PEP[c] --> ATP[c] + PYR[c],"pykA, pykF"
+PPS,ATP[c] + PYR[c] --> PEP[c] + AMP[c],pps
+PDH,NAD[c] + PYR[c] + COA[c] --> NADH[c] + ACCOA[c] + CO2[c],lpdA; aceEF
+G6PDH,G6P[c] + NADP[c] --> _6PGL[c] + NADPH[c],zwf
+PGL,_6PGL[c] --> _6PGC[c],pgl
+GND,NADP[c] + _6PGC[c] --> CO2[c] + NADPH[c] + RU5P[c],gnd
+RPE,RU5P[c] <=> XU5P[c],rpe
+RPI,RU5P[c] <=> R5P[c],rpiA
+TKT1,XU5P[c] + R5P[c] <=> G3P[c] + S7P[c],tktAB
+TAL,G3P[c] + S7P[c] <=> F6P[c] + E4P[c],talAB
+TKT2,XU5P[c] + E4P[c] <=> F6P[c] + G3P[c],tktAB
+CS,ACCOA[c] + OAA[c] --> COA[c] + CIT[c],gltA
+ACN1,CIT[c] <=> ACON[c],acnAB
+ACN2,ACON[c] <=> ICT[c],acnAB
+ICDH,NADP[c] + ICT[c] --> CO2[c] + NADPH[c] + AKG[c],icd
+AKGDH,NAD[c] + COA[c] + AKG[c] --> NADH[c] + CO2[c] + SUCCOA[c],lpdA; sucAB
+SCS,ADP[c] + SUCCOA[c] <=> ATP[c] + COA[c] + SUCC[c],sucCD
+SDH,SUCC[c] + Q8[c] --> FUM[c] + Q8H2[c],sdhABCD
+FUM,FUM[c] <=> MAL[c],fumABC
+MDH,NAD[c] + MAL[c] <=> NADH[c] + OAA[c],mdh
+FRD,FUM[c] + Q8H2[c] --> SUCC[c] + Q8[c],frdABCD
+ICL,ICT[c] --> SUCC[c] + GLX[c],aceA
+MS,ACCOA[c] + GLX[c] --> COA[c] + MAL[c],aceB
+PPC,PEP[c] + CO2[c] --> OAA[c],ppc
+ME1,NAD[c] + MAL[c] --> NADH[c] + PYR[c] + CO2[c],sfcA
+PCK,ATP[c] + OAA[c] --> ADP[c] + PEP[c] + CO2[c],pckA
+ME2,NADP[c] + MAL[c] --> NADPH[c] + PYR[c] + CO2[c],maeB
+PFL,PYR[c] + COA[c] --> ACCOA[c] + FOR[c],pflA
+POX,PYR[c] + Q8[c] --> CO2[c] + Q8H2[c] + AC[c],poxB
+LDH,NADH[c] + PYR[c] --> NAD[c] + LAC[c],ldhA
+FDH,FOR[c] --> CO2[c] + H2[e],"hycBCDEFG, fdhF"
+ALDH,NADH[c] + ACCOA[c] --> NAD[c] + COA[c] + ACALD[c],adhE
+ADH,NADH[c] + ACALD[c] --> NAD[c] + ETOH[c],adhE
+PTA,ACCOA[c] --> COA[c] + ACTP[c],pta
+ACK,ADP[c] + ACTP[c] --> ATP[c] + AC[c],ackA
+EDD,_6PGC[c] --> _2DDG6P[c],edd
+EDA,_2DDG6P[c] --> G3P[c] + PYR[c],eda
+PTS,PEP[c] + GLC[e] --> G6P[c] + PYR[c],ptsG; ptsHI; crr
+BIO,0.049 G6P[c] + 0.017 F6P[c] + 40.68 ATP[c] + 0.031 G3P[c] + 4.079 NAD[c] + 1.642 _3PG[c] + 0.96 PEP[c] + 3.92 PYR[c] + 1.207 ACCOA[c] + 18.32 NADPH[c] + 0.86 R5P[c] + 0.512 E4P[c] + 2.355 OAA[c] + 1.426 AKG[c] + 12.502 NH3[c] --> 40.68 ADP[c] + 4.079 NADH[c] + 1.207 COA[c] + 18.32 NADP[c],
+NADHDH,2ADP[c] + NADH[c] + O2[e] --> 2ATP[c] + NAD[c],nuoAHJKLMNEFGBCI; atpABCDEFGHI
+CYTBO,ADP[c] + Q8H2[c] + O2[e] --> ATP[c] + Q8[c],cyoABCD; atpABCDEFGHI
+ATPM,ATP[c] --> ADP[c],
+NDH,NADH[c] + Q8[c] <=> NAD[c] + Q8H2[c],ndh
+THD,NAD[c] + NADPH[c] <=> NADH[c] + NADP[c],pntAB
+ADK,ATP[c] + AMP[c] --> 2ADP[c],adk
+ETOHt,ETOH[c] --> ETOH[e],
+ACt,AC[c] --> AC[e],
+NH3t,NH3[e] --> NH3[c],
+LACt,LAC[c] --> LAC[e],
+SUCCt,SUCC[c] --> SUCC[e],
+FORt,FOR[c] --> FOR[e],
+CO2t,CO2[c] --> CO2[e],
+GLCt,GLC[e] + H[e] --> GLC[c] + H[c],
+GLK,GLC[c] + ATP[c] --> G6P[c] + ADP[c],glk
+EX_glc,GLC[ex] --> GLC[e],
+EX_etoh,ETOH[e] --> ETOH[ex],
+EX_ac,AC[e] --> AC[ex],
+EX_nh3,NH3[ex] --> NH3[e],
+EX_lac,LAC[e] --> LAC[ex],
+EX_succ,SUCC[e] --> SUCC[ex],
+EX_for,FOR[e] --> FOR[ex],
+EX_co2,CO2[e] --> CO2[ex],
+EX_o2,O2[ex] --> O2[e],
+EX_H2,H2[e] --> H2[ex],
