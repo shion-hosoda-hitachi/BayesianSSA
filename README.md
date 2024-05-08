@@ -39,7 +39,7 @@ And then, you obtain its stoichiometric matrix as follows:
 nu = parser.nu
 nu = bayesianssa.remove_non_flow_metabolites(nu)
 ```
-```bayesianssa.remove_non_flow_metabolites``` remove metabolites that are not used or produced. Such metabolites make BayesianSSA impossible to be applied.
+```bayesianssa.remove_non_flow_metabolites``` removes metabolites that are not used or produced. Such metabolites make BayesianSSA impossible to be applied.
 You specify the hyperparameters and the number of iterations as follows:
 ```
 n_iter = 10000
