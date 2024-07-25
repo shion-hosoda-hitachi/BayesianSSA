@@ -130,7 +130,7 @@ class NumericalSSA(object):
             sys.exit(1)
         self.M = nu.shape[0]
         self.J = nu.shape[1]
-        self.R = len(indices)
+        self.P = len(indices)
         self.indices = indices
         self.nu = nu
         self.r_dist = r_dist
@@ -142,7 +142,7 @@ class NumericalSSA(object):
         self.for_debug = for_debug
 
     def _generate_r_vec(self):
-        r_vec = self.r_dist(*self.r_dist_param, size=self.R)
+        r_vec = self.r_dist(*self.r_dist_param, size=self.P)
         return r_vec
 
     def _calculate_nu_kernel(self):

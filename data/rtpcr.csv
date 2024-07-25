@@ -1,0 +1,21 @@
+strain,Measured gene,Sample 1,Sample 2,Sample 3
+Vector only,gltA,N. D.,N. D.,N. D.
+gltA,gltA,2105979.553,1055326.461,1508713.81
+Vector only,fbp,N. D.,N. D.,N. D.
+fbp,fbp,908911,899278,1013850
+Vector only,aceA,N. D.,N. D.,N. D.
+aceA,aceA,3187607.813,3078840.881,2406767.944
+Vector only,ldhA,562.01,826.16,734.33
+ldhA,ldhA,2121595,2477107,974122
+Vector only,maeA,N. D.,N. D.,N. D.
+maeA,maeA,497514.3233,413952.0073,528252.0689
+Vector only,maeB,N. D.,N. D.,N. D.
+maeB,maeB,2127,4744,2590
+Vector only,pckA,N. D.,N. D.,N. D.
+pckA,pckA,700840.189,853427.6834,915464.696
+Vector only,ppc,N. D.,N. D.,N. D.
+ppc,ppc,352,477,224
+Vector only,pps,N. D.,N. D.,N. D.
+pps,pps,1085663,439841,610621
+Vector only,pta,N. D.,N. D.,N. D.
+pta,pta,290663.1074,225495.8388,1239139.08
