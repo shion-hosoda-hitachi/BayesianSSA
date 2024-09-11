@@ -15,7 +15,7 @@ BayesianSSA is implemented as a python Class.
 - All experiments were validated on Ubuntu 20.04.4.
 ## Usage
 ### Reproducing paper
-You can easily reproduce the result of [the BayesianSSA paper](https://doi.org/10.1101/2024.03.14.585120) using notebook/conduct_BayesianSSA.ipynb and notebook/reproduce_paper_figures_and_tables.ipynb.
+You can easily reproduce the result of [the BayesianSSA paper](https://doi.org/10.1186/s12859-024-05921-4) using notebook/conduct_BayesianSSA.ipynb and notebook/reproduce_paper_figures_and_tables.ipynb.
 data/SSDesignSuppTable.csv is from the following paper:
 > Toya, Yoshihiro, Takanori Shiraki, and Hiroshi Shimizu. "Ssdesign: Computational metabolic pathway design based on flux variability using elementary flux modes." Biotechnology and bioengineering 112.4 (2015): 759-768.
 This metabolic network information was corrected on the basis of communications with the authors.
